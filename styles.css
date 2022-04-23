@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces:wght@900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.icon{
+    display: none;
+}
+.site-nav{
+    display: flex;
+    align-items: center;
+    padding-top: 44px;
+}
+.logo{
+    margin-right: auto;
+}
+.site-nav__menu{
+    width: 25%;
+    text-transform: uppercase;
+}
+.site-nav__link{
+    text-decoration: none;
+    color: #83888F;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 30px;
+    font-family: 'Barlow', 'Arial', sans-serif;
+}
+.site-nav__link:hover{
+    color: #333D4B;
+}
+.coffee-body{
+    margin-top: 45px;
+    background-image: url(./img/coffee.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 150px;
+    padding-left: 80px;
+}
+.coffee-body__title{
+    font-family: 'Fraunces', 'Arial', sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+.coffee-body__subtitle{
+    width: 400px;
+    font-family: 'Barlow',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px; 
+    opacity: 0.8;
+    color: #FEFCF7;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+.coffee-body__button,
+.collection__button{
+    text-decoration: none;
+    font-family: 'Barlow', 'Arial', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FEFCF7;
+    background: #0E8784;
+    border-radius: 6px;
+    padding: 15px 30px;
+}
+.coffee-body__button:hover{
+    background-color: #66D2CF;
+}
+@media screen and (min-width: 820) {
+    .container{
+        width: 800px;
+    }
+    .icon{
+        display: inline;
+    }
+    .section1{
+        width: 100vw;
+    }
+    .site-nav{
+        padding-top: 40px;
+    }
+    .site-nav__link{
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        margin-left: 30px;
+        font-family: 'Barlow', 'Arial', sans-serif;
+    }
+    .site-nav__link:hover{
+        color: #333D4B;
+    }
+    .coffee-body{
+        margin-top: 45px;
+        background-image: url(./img/coffee.png);
+        background-repeat: no-repeat;
+        height: 100vh;
+        padding-top: 150px;
+        padding-left: 80px;
+    }
+    .coffee-body__title{
+        font-family: 'Fraunces', 'Arial', sans-serif;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FEFCF7;
+    }
+    .coffee-body__subtitle{
+        width: 400px;
+        font-family: 'Barlow',sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px; 
+        opacity: 0.8;
+        color: #FEFCF7;
+        margin-top: 32px;
+        margin-bottom: 50px;
+    }
+    .coffee-body__button,
+    .collection__button{
+        text-decoration: none;
+        font-family: 'Barlow', 'Arial', sans-serif;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FEFCF7;
+        background: #0E8784;
+        border-radius: 6px;
+        padding: 15px 30px;
+    }
+}
+.text-block{
+    width: 250px;
+    text-align: center;
+}
+.collection-cards{
+    display: flex;
+    align-items: center;
+    background-image: url(./img/collection.png);
+    background-repeat: no-repeat;
+}
+.collection-cards__card{
+    margin-left: 30px;
+    margin-top: 130px;
+    margin-bottom: 180px;   
+}
+.collection-cards__card__title{
+    font-family: 'Fraunces',sans-serif;
+    color: #333D4B;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 58px;
+    margin-bottom: 20px;
+}
+.collection-cards__card__subtitle{
+    font-family: 'Barlow',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+.choose-body{
+    background-color: #333D4B;
+    height: 500px;
+}
+.choose-text{
+    padding-top: 100px;
+    padding-left: 300px;
+}
+.choose-text__title{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    font-family: 'Fraunces',sans-serif;
+    color: #FEFCF7;
+    margin-left: 120px;
+    margin-bottom: 32px;
+}
+.choose-text__subtitle{
+    font-family: 'Barlow',sans-serif;
+    color: #FEFCF7;
+    opacity: 0.8;
+    width: 540px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+.choose-cards{
+    display: flex;
+    align-items: center;
+    margin-top: -150px;
+    margin-bottom: 200px;
+}
+.choose-cards__card{
+    background: #0E8784;
+    border-radius: 8px;
+    width: 350px;
+    height: 380px;
+    margin-left: 30px;
+    padding-left: 47px; 
+    padding-top: 72px;
+}
+.choose-cards__card > img{
+    margin-left: 100px;
+}
+.text-block_active{
+    color: #FEFCF7;
+}
+.works-main__title{
+    font-family: 'Fraunces',sans-serif;
+    color: #83888F;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 80px;
+    margin-left: 80px;
+}
+.works-main__path{
+    position: relative;
+    margin-left: 80px;
+}
+hr{
+    color: #FDD6BA;
+    width: 760px;
+}
+.works-main__path::after{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: #FEFCF7;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 5px;
+}
+/* .works-main__path::after{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: #FEFCF7;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    left: 700px;
+} */
+/* .works-main__path::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: #FEFCF7;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    left: 740px;
+     */
+/* } */
+.works-card__number{
+    font-family: 'Fraunces',sans-serif;
+    color: #FDD6BA;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+}
+.works-card_active{
+    text-align: left;
+}
+.works-cards{
+    display: flex;
+    padding-top: 67px;
+}
+.works-card{
+    margin-left: 95px;
+}
+.collection__button{
+    margin-top: 70px;
+}
+.button_active{
+    margin: auto;
+    margin-top: 70px;
+}      
